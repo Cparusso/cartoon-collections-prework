@@ -24,7 +24,5 @@ def find_the_cheese(ingredients)
     if cheese_types.include?(ingredient)
       ingredient
     end
-
-    nil
   end
 end
