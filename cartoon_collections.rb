@@ -23,6 +23,8 @@ def find_the_cheese(ingredients)
   ingredients.each do |ingredient|
     if cheese_types.include?(ingredient)
       puts ingredient
+    else
+      nil
     end
   end
 end
